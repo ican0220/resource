@@ -1,0 +1,10 @@
+I am excited to apply for the Full Stack Engineer position at Draftbit, as advertised. With a strong background in web and mobile application development, particularly using technologies such as Rescript, React, Node.js, and PostgreSQL, I am confident in my ability to contribute effectively to your team and help enhance your platform. 
+ 
+In my previous role, I was responsible for developing and maintaining a complex web application that utilized React for the frontend and Node.js for the backend. I implemented various features using GraphQL and Apollo, which improved the efficiency of data fetching and allowed for a more seamless user experience. My experience with Rescript has been particularly rewarding, as it has enabled me to write safer and more maintainable code through its strong type system. I appreciate the functional programming paradigm that Rescript promotes, and I have found it invaluable in reducing bugs and enhancing code clarity. 
+ 
+I am particularly drawn to this position because of Draftbit's commitment to building a robust platform and fostering collaboration among team members. I thrive in environments where I can work asynchronously while maintaining clear communication through tools like Slack and Zoom. I understand the importance of overlapping work hours with the team, and I am fully available between 9 AM and 12 PM Central US time, ensuring that I can contribute effectively during those hours. 
+ 
+Additionally, I am eager to engage in ongoing development rather than being tied to a specific project. I believe that continuous improvement is vital in software development, and I am excited about the opportunity to iterate on features and collaborate with other talented engineers at Draftbit. 
+ 
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and experiences align with the needs of your team. I am enthusiastic about the possibility of contributing to Draftbit's mission and helping to create a powerful platform for developers. 
+ 
