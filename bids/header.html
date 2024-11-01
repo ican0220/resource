@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header {
+            min-height: 500px;
+            padding: 30px 0px;
+            position: absolute;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .header-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            max-width: 1360px;
+            position: relative;
+            left: 40px;
+            width: 91.5%;
+            margin: auto;
+        }
+
+        .header-menu {
+            width: 100%;
+        }
+
+        .header-menu-container {
+            display: flex;
+            width: 100%;
+            align-items: center;
+        }
+
+        .header-primary-menu {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-family-default);
+            position: relative;
+        }
+
+        .header-primary-menu li {
+            padding: 0px 25px;
+        }
+
+        .header-logo {
+            text-align: center;
+            min-width: 279px;
+            margin: 0 25px;
+        }
+
+        .header-list,
+        .header-contact-list {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            padding: 0px;
+        }
+
+        .header-contact-list li a {
+            color: white;
+        }
+
+        .header-list li a {
+            font-size: 14px;
+            color: #fff;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 1;
+            letter-spacing: 1px;
+            padding: 5px 0;
+            display: block;
+            position: relative;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .header-list li a::after {
+            content: "";
+            width: 0%;
+            height: 2px;
+            background-color: white;
+            position: absolute;
+
+            transform: translateX(50%);
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            transition: all 500ms ease;
+        }
+
+        .header-list a:hover::after {
+            width: 100%;
+            opacity: 1;
+            transform: translateX(0%);
+        }
+
+        .header-contact-info {
+            margin: 0px 12px;
+        }
+
+        .ip-banner::before {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+            opacity: .75;
+            height: 50%;
+            top: 0;
+        }
+
+        .ip-banner::before,
+        .ip-banner::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            z-index: 1;
+            pointer-events: none;
+            width: 100%;
+            height: 50%;
+        }
+
+        .ip-banner canvas {
+            display: block;
+            position: relative;
+            z-index: 0;
+            width: 100%;
+            min-height: 250px;
+            background-color: var(--dark);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .dropdown-menu {
+            background-color: #9aadbf;
+        }
+
+        .dropdown-menu:hover {
+            color: white;
+            background-color: #2b2b2b;
+            text-decoration: none;
+        }
+
+        .dropdown-menu:hover a:hover {
+            color: white;
+            background-color: #2b2b2b;
+            text-decoration: none;
+        }
+
+        .dropdown-menu:hover a:hover::after {
+            width: 0;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header.cshtml -->
+    <header>
+        <div class="header-container">
+            <div class="header-menu">
+                <div class="header-menu-container">
+                    <ul class="header-list header-primary-menu">
+                        <li><a href="https://genstonerealty.com/">HOME</a></li>
+                        <li><a href="https://genstonerealty.com/off-market-listings/">OFF-MARKET-LISTING</a></li>
+                        <li><a href="https://genstonerealty.com/about-us/"></a></li>
+                    </ul>
+                    <div class="header-logo"><a href="https://genstonerealty.com/">
+                            <img src="https://genstonerealty.com/wp-content/uploads/2024/05/site-logo.png"
+                                alt="GenStone Realty" width="279" height="57" class="img-responsive">
+                        </a></div>
+                    <ul class="header-list header-primary-menu">
+                        <li class="dropdown">
+                            <a href="https://genstonerealty.com/about-us/" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://genstonerealty.com/join-our-team/">JOIN OUR TEAM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://genstonerealty.com/locations/">LOCATIONS</a></li>
+                        <li><a href="https://genstonerealty.com/contact-us/">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="header-contact-list">
+                <li class="header-contact-info header-contact-phone"><a href="tel:+1.813.473.8013"><i class="fa fa-phone"></i></a></li>
+                <li class="header-contact-info header-contact-email"><a href="mailto:info@genstonerealty.com"><i class="fa fa-envelope"></i></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="textwidget custom-html-widget">
+            <div class="ip-banner" data-type="404-not-found" data-id="404-not-found">
+                <canvas width="1600" height="500"
+                    style="background-image: url(https://genstonerealty.com/wp-content/uploads/2024/08/ip-banner.jpg)"></canvas>>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

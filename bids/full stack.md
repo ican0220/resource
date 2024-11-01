@@ -1,6 +1,8 @@
 
 
-Hello, I can work on your project with my hourly rate $15 as a full stack developer. I have enough experiences and skills in website developments, especially in .net framework, flask and react/next. I can deliver the result with high quality within deadlines. I am ready to start the work right now.
+Hello, I am Vladyslav. If you are seeking passionate web developer that has high quality and good communication, I think I am very fit at this position. I can help you for developing websites for long time with my rate $10 to $15. I have enough experiences and skills in website developments, especially in .net framework, flask and react/next. I can deliver the result with high quality within deadlines. I am ready to start the work right now.
+
+My github name: https://github.com/naturedevs. You can check my skills from this.
 
 I can create responsive and visual appealing front-end and I optimize the Search Engin order. I ensure website performance using recent trends of web development. I follow user experiences, so my worked sites has short loading time, and visually appealing interface, and usage convenience interface. 
 I write maintainable, updatable, and reusable code, and create well-structured, and performance optimized back-end logic. I design the best effective databases, tables, and indexes. 

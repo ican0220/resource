@@ -1,8 +1,10 @@
-Hello, I can work on your React/Node.js project. I can start the work right now. I can deliver the result with high quality as quickly as possible.  I want to work with you for long time. I have extensive experiences and skills in React.js
+Hello, I am Vladyslav. I can work on your React/Node.js project. I can start the work right now. I can deliver the result with high quality as quickly as possible.  I want to work with you for long time. I have extensive experiences and skills in React.js
 
 My skills include:
 -html, css, js, ts
 -react.js and next.js and vue.js
+-backend: node.js, express.js, Laravel, Django and Ruby on Rails.
+-database: mongodb, mysql and postgresql
 -bootstrap and tailwindcss
 -git, github and gitlab
 

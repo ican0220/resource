@@ -1,4 +1,4 @@
-Hello, I am Brenton. I can create Header and Footer based on WordPress/Elementor. I can deliver the result within 2 days and you can the best result tomorrow.I have strong confidence and I can make your current website more beautiful and visual appealing. You can know my skills in wordpress/elementer throughout my first work. 
+Hello, I am Brenton. I can convert your Figam into WordPress/Elementor. I can deliver the result within short times and you can the best result within a few days.I have strong confidence and I can make your current website more beautiful and visual appealing. You can know my skills in wordpress/elementer throughout my first work. 
 
 Key Skills and Experience:
  - WordPress Development: Experienced in creating and customizing WordPress themes, plugins, and templates. I have a deep understanding of WordPress architecture, enabling me to efficiently develop and troubleshoot issues.
@@ -17,10 +17,14 @@ I have extensive experience with Elementor, having used it to build and customiz
 
 I can start the work immediately. I can deliver the result with high quality within deadlines. I hope to work with you.
 Thank you.
+Hello, I am Vladyslav.
+If you are seeking a WordPress expert for full time role, I think I am very fit at this position. I can work on 8 to 14 hours a day, I can deliver the best result asap. My hourly rate $20.
+I am a hard worker and I am detail oriented developer. If you send me an offer, I am ready to start the work immediately. I hope to work with you for long time.
 
+My previous work results:
+https://avada.com/
+https://arstechnica.com/
 https://a16z.com/
 https://css-tricks.com/
 
-In each project, I focused on creating user-friendly, visually appealing designs while ensuring fast load times and SEO optimization.
-
-I have been working as a WordPress developer for 4 years. During this time, I have gained extensive experience building custom themes, developing plugins, optimizing site performance, and working with popular page builders like Elementor.
+Thank you.

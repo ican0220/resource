@@ -1,4 +1,4 @@
-Hello, I can work on your project with my hourly rate $15. I am excited to apply for the Web Developer position. With 5 years of experience in web development and a strong proficiency in HTML, CSS, and JavaScript, I am confident in my ability to contribute effectively to your dynamic team. 
+Hello, I can work on your team as a senior front-end developer, while also hiring a front-end developer to bring your vision to life, and I can bring successful result. With deep understanding and enough experineces in front-end developments, I can deliver the result with high quality within deadlines. 
  
 My previous works:
 https://avada.com/
@@ -18,10 +18,6 @@ My skills include:
 - wordpress, laravel, nodejs
 - bootstrap and tailwindcss
 - git, github and gitlab
-
-
-I am particularly drawn to this position because of this position need web skills and experiences. I am always eager to learn the latest technologies and enhance my skills, which aligns perfectly with your team’s vision. 
  
-I would love the opportunity to discuss how my background and passion for web development can contribute to shaping your growing web presence. Thank you for considering my application. I look forward to the possibility of working together!
+I would love the opportunity to discuss how my background and passion for web development can contribute to shaping your growing web presence. I can start the work immediately. I am a hard worker and I can work on full time on your project. Thank you for considering my application. I look forward to the possibility of working together!
 Thank you
-Vladyslav

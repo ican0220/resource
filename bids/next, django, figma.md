@@ -1,28 +1,30 @@
-Hello, I can work on your project with your proposed budget. I have extensive experiences and skills in React.js and Next.js with typescript, and Figma design.
-I have good communication skills and I can communicate with you at any time. I am a detail-oriented developer, and I create the user-friendly and visual appealing design. I have deep understanding in pixel-perfect and responsive design.
+Hello, I am Vladyslav. If you are seeking a React/Next.js expert with similar codebase and experiences to your reference site, I am very fit at this position. With 5 over experiences in React/Next.js, I can complete your project similar with your reference site within 1 month. I have good communication skills and I can communicate with you at any time. I am a detail-oriented developer, and I create the user-friendly and visual appealing design. I have deep understanding in pixel-perfect and responsive design. I am also familar with Node.js, Express.js, MongoDB, MySQL, and I can create effective mobile app and routes for backend system. I have good understanding to api integrations, and I have experiences in integrating third party integration.
 
 My recent previous works:
-
-- https://oasis-main-sigma.vercel.app
-- https://htp-ten.vercel.app
 - https://audiio.com/
+- https://oasis-main-sigma.vercel.app
+
+- https://www.ai-captures.com/
+- https://htp-ten.vercel.app
 - https://safeweb-new.vercel.app/
 
+My github name: https://github.com/naturedevs
+You can check my experiences and skills from projects in GitHub. As you can see on GitHub, the most projects was built in Next.js/TypeScript/TailwindCSS.
 
 I have recently converted the following figma files into next.js projects:
 -https://www.figma.com/design/qnGxVaHNS6GihsCxoOP6jo/DIA-App-Design-(External-Freelancer)?node-id=1975-10333&node-type=canvas
 -https://www.figma.com/design/lxEwJzImCqZ17eoiq9TIvD/Project-%2F-M2-Move_UI
--https://konva-chart.vercel.app/
--https://paygate-psi.vercel.app/pay
 
 My skills include:
 - html, css, javascript, typescript
 - node.js, react.js and next.js
-- Figma
+- express.js 
+- MongoDB and MySQL
 - git, github and gitlab
 - tailwindcss and bootstrap
+- AWS, Vercel
 
-I can start the work right now. I can devote myself to deliver the result with high quality within deadlines. I hope to work with you for long time.
+I am hard worker and I can work on full time. I am very interested in fact that this is on going position. If you give me an offer, I am ready to jump into your project. I hope to work with you for long time.
 Thank you.
 
 Hello, I can work on your Project with $7/hour. I can deliver the result with high quality asap.

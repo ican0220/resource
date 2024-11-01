@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" id="agentimage-font-css" href="https://cdn.vs12.com/font-icons/agentimage.font.icons.css" type="text/css" media="">
+    <style>
+        footer {
+            width: 100%;
+            background: #2a2a2a;
+            padding: 80px 0 45px;
+            font-size: 15px;
+            color: #fff;
+            position: relative;
+        }
+
+        .canvas-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+
+        }
+
+        .canvas-bg canvas {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: block;
+        }
+
+        .footer .custom-container {
+            max-width: 1125px;
+        }
+
+        .canvas-bg+.custom-container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .custom-container {
+            width: 91.25%;
+            max-width: 1460px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer-logo {
+            margin-bottom: 45px;
+        }
+
+        .footer-logo img {
+            filter: brightness(0) invert(1);
+            margin: 0 auto;
+        }
+
+        .footer-logo p {
+            margin-top: 20px;
+            font-size: 20px !important;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .footer-contact-list {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            justify-content: space-between;
+            max-width: 775px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .footer-contact-list {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            justify-content: space-between;
+            max-width: 775px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .footer-contact {
+            font-size: 15px;
+            letter-spacing: 1px;
+            display: flex;
+            line-height: 1.8;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 260px;
+        }
+
+        .footer-contact-env, .footer-contact-tel{
+            color: white !important;
+        }
+        .footer-contact-env:hover, .footer-contact-tel:hover{
+            opacity: 0.7 !important;
+            text-decoration: none;
+        }
+
+        .footer-smis {
+            width: 100%;
+            margin: 20px 0 40px;
+        }
+
+        .footer-smis a {
+            margin: 0 20px;
+            font-size: 25px;
+            color: white !important;
+        }
+        .footer-smis a:hover{
+            opacity: 0.7;
+        }
+        .footer .footernav {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+ol, ul {
+    list-style: none;
+}
+.footernav li {
+    display: inline-block;
+    margin: 0 25px;
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+.footer p{
+    font-size: 14px;
+}
+.footer{
+    font-family: 'Outfit';
+}
+.footer-copyright .agent-name, .footer-copyright a:last-child {
+    color:#9aadbf;
+}
+.footer-copyright .ai-font-eho {
+    font-size: 24px;
+}
+.footer-copyright .ai-icon {
+    display: inline-block;
+    font-size: 32px;
+    color: #9aadbf;
+    margin: 30px 5px 0;
+    vertical-align: middle;
+}
+    </style>
+</head>
+
+<body>
+    <footer class="text-center footer">
+        <div class="canvas-bg">
+            <canvas class=" lazyloaded" width="1600" height="653"
+                data-bgset="https://genstonerealty.com/wp-content/themes/genstonerealty.com-new/assets/images/global/footer-bg.jpg"
+                style="background-image: url(&quot;https://genstonerealty.com/wp-content/themes/genstonerealty.com-new/assets/images/global/footer-bg.jpg&quot;);">
+                <picture style="display: none;">
+                    <source
+                        data-srcset="https://genstonerealty.com/wp-content/themes/genstonerealty.com-new/assets/images/global/footer-bg.jpg"
+                        sizes="1903px"
+                        srcset="https://genstonerealty.com/wp-content/themes/genstonerealty.com-new/assets/images/global/footer-bg.jpg">
+                    <img alt="" class="lazyautosizes lazyloaded ls-is-cached" data-sizes="auto" data-parent-fit="cover"
+                        sizes="1903px">
+                </picture>
+            </canvas>
+        </div>
+        <div class="custom-container">
+            <div class="footer-logo">
+                <div class="textwidget custom-html-widget"><a href="https://genstonerealty.com">
+                        <img src="https://genstonerealty.com/wp-content/uploads/2024/05/site-logo.png"
+                            alt="GenStone Realty" width="279" height="57" class="img-responsive">
+                    </a>
+                    <p>LARGE ENOUGH TO MATTER, SMALL ENOUGH TO CARE</p>
+                </div>
+            </div>
+
+            <div class="footer-contacts">
+                <div class="textwidget custom-html-widget">
+                    <div class="footer-contact-list">
+                        <div class="footer-contact"><i class="fa fa-phone"></i> <a href="tel:+1.813.473.8013" class="footer-contact-tel"
+                                aria-label="+1.813.473.8013">813.473.8013</a></div>
+                        <div class="footer-contact"><i class="fa fa-envelope"></i> <a
+                                class="footer-contact-env" data-value="info(at)genstonerealty(dotted)com"
+                                href="mailto:info@genstonerealty.com"
+                                aria-label="info(at)genstonerealty(dotted)com">info@genstonerealty.com</a></div>
+                        <div class="footer-contact"><i class="fa fa-location-dot"></i> 5426 Bay Center Drive, Suite 300
+                            Tampa, FL 33609</div>
+                        <div class="footer-smis">
+                            <a href="https://www.facebook.com/genstonerealtyllc" target="_blank" class="hp-smi-fb"
+                                rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/genstonerealty/" target="_blank" class="hp-smi-ig"
+                                rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/genstone-realty/" target="_blank"
+                                class="hp-smi-li" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <div class="menu-primary-menu-container">
+                    <ul id="menu-primary-menu-1" class="footernav">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177"><a href="/"
+                                data-title="Home">Home</a></li>
+                        <li class="mob-sub menu-item menu-item-type-custom menu-item-object-custom menu-item-584"><a
+                                href="https://genstonerealty.com/off-market-listings/"
+                                data-title="Off-Market Listings">Off-Market Listings</a></li>
+
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a
+                                href="https://genstonerealty.com/about-us/" data-title="About Us">About Us</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-349"><a
+                                href="https://genstonerealty.com/locations/" data-title="Locations">Locations</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a
+                                href="https://genstonerealty.com/contact-us/" data-title="Contact Us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-disclaimer">
+                <div class="textwidget custom-html-widget">
+                    <p>GenStone Realty is committed to providing an accessible website. If you have difficulty accessing
+                        content, have difficulty viewing a file on the website, or notice any accessibility problems,
+                        please contact us at <a href="tel:+1.813.473.8013" class="aios-ai-phone "
+                            aria-label="+1.813.473.8013">813.473.8013</a> to specify the nature of the accessibility
+                        issue and any assistive technology you use. We strive to provide the content you need in the
+                        format you require.</p>
+                    &nbsp;
+                    <p><a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-of-use/">Terms of Use</a> | <a
+                            href="/dmca-notice/">DMCA Notice</a> | <a href="/do-not-sell-my-information/">Do Not Sell My
+                            Information</a> | <a
+                            href="/new-york-state-fair-housing-notice-anti-discrimination-notice/">New York State Fair
+                            Housing Notice &amp; Anti-Discrimination Notice</a> <br> <a
+                            href="/texas-consumer-notice/">Texas Consumer Notice</a> | <a
+                            href="/texas-information-about-brokerage-services/">Texas Information About Brokerage
+                            Services</a></p>
+                    &nbsp;
+                    <p>GenStone Realty fully supports the principles of the <a
+                            href="https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview"
+                            target="_blank" rel="noopener">Fair Housing Act</a> and the <a
+                            href="https://www.eeoc.gov/laws-guidance" target="_blank" rel="noopener">Equal Opportunity
+                            Act</a>.</p>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p>Copyright © 2024 <span class="agent-name">GenStone Realty</span>. All rights reserved. <a
+                        href="https://genstonerealty.com/sitemap">Sitemap</a>. Real Estate Website Design by <a
+                        target="_blank" href="https://www.agentimage.com"
+                        style="text-decoration:underline;font-weight:bold">Agent Image</a></p>
+                <span class="ai-font-eho ai-icon"></span> <span class="ai-font-realtor-mls ai-icon"></span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>

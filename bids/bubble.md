@@ -1,5 +1,5 @@
 
-Hello, I can work on your Bubble.io project with my hourly rate $15 over 12 months. I can work on normal time zone. and I can work 40 hours per week. I have extensive experiences and skills in bubble.io and no code platforms. 
+Hello, I am Vladyslav. If you are seeking a Bubble.io expert to implemement your learning system asap, I think I am very fit at this position. I can work on your Bubble.io project with my hourly rate $20. I can work on normal time zone. and I can work 40 hours per week. I have extensive experiences and skills in bubble.io and no code platforms. 
 
 My previous live works:
 https://app.formulabot.com/
@@ -28,18 +28,8 @@ My skills include:
 - apis and integration: api connector and plugins
 - hosting and deployment: cloud hosting and version control
 
- 
-While I am not currently certified, I have extensively worked with Bubble.io and have a strong understanding of its capabilities. I am committed to obtaining certification as soon as possible to further validate my expertise. 
- 
-I have hands-on experience integrating various APIs and developing custom plugins within Bubble.io. This has allowed me to enhance application functionality and streamline workflows effectively. 
- 
-I am proficient in using SendGrid for email automation and notifications, Figma for UI/UX design collaboration, and Notion for project management and documentation. This knowledge enables me to contribute to different aspects of the development process seamlessly. 
- 
-I have a portfolio showcasing several Bubble projects that highlight my ability to create complex workflows and user-friendly interfaces. I would be happy to share specific examples during our conversation. 
- 
-I pride myself on my strong written and verbal communication skills, which have been essential in collaborating with teams and presenting project updates to stakeholders. 
- 
-I am highly motivated and thrive in fast-paced environments. My passion for continuous learning drives me to stay updated with the latest trends and best practices in no-code development. 
+I am a hard worker and I can work on full time. If you send me an offer, I am ready to start the work immediately. I hope to work with you.
+Thank yo.
 
 I can start the work right now. I can deliver the result with high quality within deadlines. I hope to work with you.
 Thank you.
