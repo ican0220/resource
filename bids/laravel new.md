@@ -1,7 +1,7 @@
 Hello
-Good day! I see you are looking a reliable Laravel developer to join your team.
+Good day! I see you are looking a Tailwind AlpineJS Laravel Livewire developer to assist your team for a ongoing project.
 
-I think you expect effective and clean code, responsive and pixel perfect implementation of Figma designs, updating and maintaining of your existing websites from me.
+I think your team is modern and cutting edge because you are using AlpineJS, a powerful JavaScript framework, Tailwincss as a CSS framework, and Laravel and Livewire as the latest Laravel framework. I am very interested in joining your team and would like to commit to helping grow your team.
 
 Here are my previous works. You can check my previous works from these live sites.
 https://legiit.com/
@@ -9,7 +9,8 @@ https://anilist.co/
 
 My skills include:
 - HTML, CSS, JavaScript, PHP
-- Laravel
+- AlpineJS and JQuery
+- Laravel, Livewire
 - React and Vue.js
 - Figma
 - Git, GitHub and GitLab

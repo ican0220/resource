@@ -1,7 +1,7 @@
 Hello
 Good day! I see you are looking a reliable senior WordPress developer to creat multivendor wordpress website.
 
-I think this website need WooCommerce and multi verndor plugin, and payment gateway integration.
+I think I should have enough experineces, good problem solving skills, good communication skills, and I should be detail-oriented dev.
 
 Here are my previous works. You can check my previous works from these live sites.
 https://avada.com/

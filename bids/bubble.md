@@ -1,9 +1,11 @@
 
-Hello, I am Vladyslav. If you are seeking a Bubble.io expert to implemement your learning system asap, I think I am very fit at this position. I can work on your Bubble.io project with my hourly rate $20. I can work on normal time zone. and I can work 40 hours per week. I have extensive experiences and skills in bubble.io and no code platforms. 
+Hello
+If you are seeking an expert full stack developer in Bubble.io with very strong expertise in front end/ UX work, I think I am very fit at this position. I can work on your Bubble.io project with my hourly rate $18. I can work on normal time zone. and I can work 40 hours per week. I have extensive experiences and skills in bubble.io and no code platforms. 
 
 My previous live works:
 https://app.formulabot.com/
 https://app.applypass.com/
+https://agencentric.com/
 
 I have extensive skills in all process of bubble.io project developments:
 1. bubble interface.
@@ -28,8 +30,9 @@ My skills include:
 - apis and integration: api connector and plugins
 - hosting and deployment: cloud hosting and version control
 
-I am a hard worker and I can work on full time. If you send me an offer, I am ready to start the work immediately. I hope to work with you.
-Thank yo.
+I can write well-documented code, and well-structured, maintainable and updatable code. I can work with a team, and I can do daily reports. I can deliver the rapid results, and I am a hard worker. I can work on your time zone and I can work on full time.
 
-I can start the work right now. I can deliver the result with high quality within deadlines. I hope to work with you.
-Thank you.
+Thank you for a interesting job.
+Feel free to have a call with me any time.
+Best.
+Vladyslav.

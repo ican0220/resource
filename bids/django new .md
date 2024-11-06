@@ -1,29 +1,27 @@
 Hello
-Good day! I see you are looking a reliable senior Django web developer to maximize the productivity and speed up delivery on fun projects.
+Good day! I see you are looking a reliable senior Django web developer to develop a rules-based expert system that uses decision tree logic for case incident management.
 
-I realized that I should have strong eye to design, willingess to work on fun projects, deliver quick results in your ai projects, I am very confident in your projects.
+I realized that I should have strong eye to design, willingess to work on fun projects, deliver quick results in your Django projects, I am very confident in your projects.
 
 Here are my previous works. You can check my previous works from these live sites.
 - https://www.ai-captures.com/
 - https://safeweb-new.vercel.app/
 
-My GitHub account is https://github.com/naturedevs.
-
-I have recently worked on ai photo generation app using open ai. 
-- https://www.ai-captures.com/
-This is website address.
+My GitHub account is https://github.com/softdev019
 
 My skills include:
 - HTML, CSS, JavaScript, PHP
 - React and Next.js
-- Django and Laravel
+- Prisma, Shad 
 - Git, GitHub and GitLab
 - Jira
 
-I have experiences that have ever worked in topcorn agriculture and medminded company.
+I can write well-documented code, and well-structured, maintainable and updatable code. I can solve security problems in writing smart contracts. I can work with a team, and I can do daily reports. I can deliver the rapid results, and I am a hard worker. I can work on your time zones and I can work on full time.
 
-I think you had good job of explaining about your job, and I can work on your working time zone.
-I am ready to discuss more details throught call or chatting about your project at anytime. 
+Think twice, code one.
+I write the code that human understands, but I don't write code that machine understands.
+I follow these sentences.
+
 Thank you for a interesting job.
 Best.
 Vladyslav.

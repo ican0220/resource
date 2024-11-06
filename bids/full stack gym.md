@@ -1,4 +1,7 @@
-Hello, Good day! I see you are looking a reliable fully stack developer to work on app for full time $800 per month.
+Hello, If you are seeking a talented full stack developer to develop custom admin app for a gym, I think I am very fit at this position. I have reviewed your attached pdf documents and I am very confident in your project. I have similar experineces with your project. That is why I am very confident in your project.
+
+- https://gestion2.softsgs.net
+Please check this site kindly. As you can see on this site, this site is an app for gym. 
 
 My skills include:
 -HTML/CSS, JavaScript, TypeScript, PHP, go
@@ -25,5 +28,4 @@ I am ready to discuss more details throughout call or chatting about your projec
 Thank you for a interesting job.
 Best.
 Vladyslav.
-
 
