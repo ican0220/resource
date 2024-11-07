@@ -1,5 +1,0 @@
-1. Slack Remote Poc
-- Fabrizio Guglielmino
-- Howard Tibbs
-2. MedMinded
- - Rachel Alamar ralamar@medminded.ai

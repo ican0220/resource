@@ -1,13 +1,66 @@
-Eugene Gomez
-Bob Simon
-Raul Gomez
-eugeengomez727@gmail.com
-horyongbom0220@gmail.com
-webbuilder1@gmail.com
-
-webbuilder111@outlook.com littleRabbit0220!
 
 David
- Sep 5th at 5:05 PM
 jamesma19980830@gmail.com
 password: happyrabbit0220
+
+CodeCrafter[YourName]@example.com
+DevWizard[YourName]@example.com
+[YourName]Techie@example.com
+ByteBuilder[YourName]@example.com
+TheCoding[YourName]@example.com
+[YourName]Engineer@example.com
+PixelProgrammer@example.com
+DevHero[YourName]@example.com
+[YourName]TheCoder@domain.com
+TechTinker[YourName]@domain.com
+CodePioneer[YourName]@example.com
+BugSquasher[YourName]@domain.com
+SyntaxMaster[YourName]@domain.com
+[YourName]C0der@domain.com
+CodeCraftsman[YourName]@example.com
+[YourName]DevSolutions@example.com
+TechArchitect[YourName]@domain.com
+[YourName]CodeMaster@example.com
+ByteMaven[YourName]@domain.com
+[YourName]TechGuru@example.com
+[YourName]TheEngineer@domain.com
+DevSensei[YourName]@example.com
+CodeMaestro[YourName]@domain.com
+[YourName]Innovator@domain.com
+TechVanguard[YourName]@domain.com
+[YourName]CodePilot@example.com
+ProgrammerPro[YourName]@domain.com
+[YourName]TechCraft@example.com
+CodeStrategist[YourName]@domain.com
+HonorDev[YourName]@domain.com
+[YourName]TheCodeMaster@domain.com
+CodeKnight[YourName]@domain.com
+[YourName]TechSavant@domain.com
+NobleCoder[YourName]@domain.com
+[YourName]CodeChampion@domain.com
+DevVirtuoso[YourName]@domain.com
+[YourName]CodeMajesty@domain.com
+[YourName]TheTechHonor@domain.com
+CodeEmissary[YourName]@domain.com
+TheDevElite[YourName]@domain.com
+TechNoble[YourName]@domain.com
+[YourName]TechLuminary@domain.com
+HonorableCoder[YourName]@domain.com
+[YourName]TheCodePioneer@domain.com
+SolverDev[YourName]@domain.com
+[YourName]TheCodeSolver@domain.com
+ProblemSolver[YourName]@domain.com
+[YourName]CodeCracker@domain.com
+TechFixer[YourName]@domain.com
+Solutionist[YourName]@domain.com
+[YourName]TheDebugger@domain.com
+CodeResolute[YourName]@domain.com
+TechTroubleshooter[YourName]@domain.com
+[YourName]SolutionSeeker@domain.com
+[YourName]FixItDev@domain.com
+CodeRepairer[YourName]@domain.com
+[YourName]TechSolver@domain.com
+[YourName]ProblemSolverX@domain.com
+SolutionCraft[YourName]@domain.com
+
+spending time and playing with green-yellow clothes
