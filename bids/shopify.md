@@ -1,4 +1,4 @@
-Hello, I am Brenton.I can start the work immediately and I can work on estern time zones. I can create beautiful and responsive artist's portfolios website. I have extensive experiences and skills in Shopify theme developments.
+Hello, $1000 is good for me and 1 month is much for me. I am sure you will get satisfactory results during the contract. Your website will be fully responsive and visually appealing, you won't have to worry about mobile users, your website will be visited by more and more people, and your site will be the first thing that shows up when people Google it.
 
 I have recently developed the following projects:
 https://cattasaurus.com/
@@ -8,6 +8,7 @@ My skills include:
 - html, css, js, php
 - shopify theme
 - shopify ,shopify cli
+- wordpress
 - git, github
 - trello or jira
 
