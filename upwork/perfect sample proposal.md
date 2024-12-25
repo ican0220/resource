@@ -1,4 +1,4 @@
-Hello, Gus
+Hello, Gabriel
 You will see that I have created a perfect website in just a few days and that website will never lose a potential customer. I think you can make a lot of money from that website and your business will grow significantly. During this contract period, you will get to know a talented and reliable developer who will help you with your business in the long term.
 
 You can have a beautiful website developed with Laravel on the backend and React on the frontend, and it will remain competitive for years, and you won't have to upgrade your website. But if you do decide to upgrade your website, you won't have to find a new developer.
@@ -16,7 +16,7 @@ My skills include:
 - Laravel
 - MySQL and Firebase
 - AWS, Google Cloud
-- Jira and Zoho
+- Zoho and Jira
 - Git, GitHub
 
 I think you did good job description, but I have a question.
