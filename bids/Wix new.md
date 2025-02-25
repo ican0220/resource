@@ -19,3 +19,10 @@ Thank you for a interesting job.
 Best.
 Vladyslav.
 
+
+Hello, I will troubleshoot the integration between 3CX and Twilio. Your fist error occurs when Twilio can not reach your webhook URL. For checking this error, I will check Webhook URL configuration, verifying 3CX settings, and Test webhook accessibility.
+
+Your second error suggests the phone number format isn't correct. For fixing this error, I will check the number format in 3CX, update Twilio SIP domain settings, verifing SIP trunck configuration in 3CX.
+
+Let's start quickly. Thank you.
+Julio.

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Prevent both horizontal and vertical scrolling */
+            height: 100vh; /* Set body height to viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+        #threejs-animation, #d3-container {
+            width: 50vw; /* Each takes half of the viewport width */
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+        }
+        main {
+            display: flex;
+            flex-direction: row; /* Align children in a row */
+            flex: 1; /* Allow the main content to grow and shrink */
+        }
+        footer {
+            flex-shrink: 0; /* Prevent the footer from shrinking */
+        }
+        /* New styles for the navbar */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff69b4; /* Pink color on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="threejs-animation"></div>
+        <div id="d3-container"></div>
+    </main>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Create a single scene for the left side
+        const sceneLeft = new THREE.Scene();
+
+        const cameraLeft = new THREE.PerspectiveCamera(75, window.innerWidth / 2 / window.innerHeight, 0.1, 1000);
+
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth / 2, window.innerHeight);
+        document.getElementById('threejs-animation').appendChild(renderer.domElement);
+
+        // Add 3D text to the left scene
+        const fontLoader = new THREE.FontLoader();
+        fontLoader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function(font) {
+            const textGeometry = new THREE.TextGeometry('Ryan Shepherd', {
+                font: font,
+                size: 0.4,
+                height: 0.1,
+                curveSegments: 12,
+                bevelEnabled: true,
+                bevelThickness: 0.03,
+                bevelSize: 0.02,
+                bevelOffset: 0,
+                bevelSegments: 5
+            });
+            const textMaterial = new THREE.MeshPhongMaterial({ color: 0xff69b4, specular: 0x555555, shininess: 30 });
+            const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+            textMesh.geometry.center();
+            textMesh.position.set(0, 1, 0);
+            sceneLeft.add(textMesh);
+
+            const titleGeometry = new THREE.TextGeometry('Three.js & D3.js Expert', {
+                font: font,
+                size: 0.3,
+                height: 0.1,
+                curveSegments: 12,
+                bevelEnabled: true,
+                bevelThickness: 0.02,
+                bevelSize: 0.01,
+                bevelOffset: 0,
+                bevelSegments: 5
+            });
+            const titleMaterial = new THREE.MeshPhongMaterial({ color: 0x1e90ff, specular: 0x555555, shininess: 30 });
+            const titleMesh = new THREE.Mesh(titleGeometry, titleMaterial);
+            titleMesh.geometry.center();
+            titleMesh.position.set(0, 0, 0);
+            sceneLeft.add(titleMesh);
+
+            // Add lighting for better visual effects
+            const ambientLight = new THREE.AmbientLight(0x404040); // soft white light
+            sceneLeft.add(ambientLight);
+
+            const pointLight = new THREE.PointLight(0xffffff, 1);
+            pointLight.position.set(5, 5, 5);
+            sceneLeft.add(pointLight);
+
+
+            // Animation variables
+            let textVibrationSpeed = 0.005;
+            let titleVibrationSpeed = 0.007;
+            let textVibrationAmplitude = 0.05;
+            let titleVibrationAmplitude = 0.03;
+            let textVibrationOffset = 0;
+            let titleVibrationOffset = 0;
+
+            function animate() {
+                requestAnimationFrame(animate);
+
+                // Vibrate the text
+                textVibrationOffset += textVibrationSpeed;
+                titleVibrationOffset += titleVibrationSpeed;
+
+                textMesh.position.y = 2 + Math.sin(textVibrationOffset) * textVibrationAmplitude;
+                titleMesh.position.y = Math.sin(titleVibrationOffset) * titleVibrationAmplitude;
+
+                // Render the left scene
+                renderer.setViewport(0, 0, window.innerWidth / 2, window.innerHeight);
+                renderer.setScissor(0, 0, window.innerWidth / 2, window.innerHeight);
+                renderer.setScissorTest(true);
+                renderer.render(sceneLeft, cameraLeft);
+                renderer.setScissorTest(false);
+            }
+            animate();
+        });
+
+        cameraLeft.position.z = 5;
+
+        // D3.js chart setup
+        const svg = d3.select("#d3-container").append("svg")
+            .attr("width", window.innerWidth / 2)
+            .attr("height", window.innerHeight);
+
+        // Set the background color of the chart to match the Three.js scene
+        svg.append("rect")
+            .attr("width", window.innerWidth / 2)
+            .attr("height", window.innerHeight)
+            .attr("fill", "#000"); // Assuming the Three.js scene background is dark gray
+
+        const data = [99, 200, 99, 200, 300, 300, 200];
+        const maxDataValue = Math.max(...data);
+        const chartWidth = maxDataValue;
+
+        const verticalOffset = (window.innerHeight - data.length * 70) / 2;
+        const barHeight = 65;
+        const horizontalOffset = Math.max(0, (window.innerWidth / 2 - chartWidth) / 2);
+
+        // Define a color scale based on skill levels
+        const colorScale = d3.scaleThreshold()
+            .domain([100, 201, 300]) // Define the thresholds for skill levels
+            .range(["#ff69b4", "#1e90ff", "#333"]); // Colors matching the theme
+
+        // Animate the bars
+        svg.selectAll("rect")
+            .data(data)
+            .enter().append("rect")
+            .attr("x", horizontalOffset) // Start all bars from the same x position
+            .attr("y", (d, i) => i * (barHeight + 5) + verticalOffset) // Adjust y for each bar
+            .attr("width", 0) // Start with width 0 for animation
+            .attr("height", barHeight)
+            .attr("fill", d => colorScale(d))
+            .transition() // Start the transition
+            .duration(1000) // Duration of the animation in milliseconds
+            .attr("width", d => d); // Animate to the full width based on data value
+
+        // Add x-axis values (formerly y-axis)
+        const xAxisLabels = ["", "Three.js", "D3.js", "React", "Node.js", "Python", "SQL"];
+        svg.selectAll(".x-axis-label")
+            .data(data)
+            .enter().append("text")
+            .attr("x", horizontalOffset - 10) // Position to the left of each bar
+            .attr("y", (d, i) => i * (barHeight + 5) + verticalOffset + barHeight / 2) // Center vertically on each bar
+            .attr("text-anchor", "end") // Align text to the end
+            .text((d, i) => xAxisLabels[i]) // Use the labels from the array
+            .attr("fill", "white"); // Change text color to white
+
+        // Create an x-axis scale
+        const xScale = d3.scaleLinear()
+            .domain([0, maxDataValue])
+            .range([horizontalOffset, horizontalOffset + chartWidth]);
+
+        // Add x-axis with no ticks
+        const xAxis = d3.axisBottom(xScale)
+            .ticks(0); // Set ticks to 0 to remove them
+
+        svg.append("g")
+            .attr("transform", `translate(0, ${window.innerHeight - verticalOffset})`)
+            .call(xAxis);
+
+        // Add skill quality labels
+        const skillLevels = [
+            { label: "Beginner", range: [0, 100] },
+            { label: "Intermediate", range: [101, 200] },
+            { label: "Expert", range: [201, 300] }
+        ];
+
+        skillLevels.forEach((level, i) => {
+            svg.append("text")
+                .attr("x", xScale((level.range[0] + level.range[1]) / 2)) // Center the label in its range
+                .attr("y", window.innerHeight - verticalOffset + 40) // Position below the x-axis
+                .attr("text-anchor", "middle")
+                .text(level.label)
+                .attr("fill", "white"); // Change text color to white
+        });
+    </script>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
